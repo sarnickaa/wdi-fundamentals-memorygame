@@ -32,7 +32,7 @@ var flipCard = function () {
 	cardsInPlay.push(cards[cardId].rank);
 	this.setAttribute('src', cards[cardId].cardImage);
 
-if (cardsInPlay.length === 2); {
+if (cardsInPlay.length === 2) {
 
 	//if (cards[0] === cards[1]) {
 		//alert("You Found A Match");}
@@ -71,9 +71,9 @@ var button = document.getElementById('refresh');
 
 function refreshPage () {
 	location.reload();
-};
-
+};	
 button.addEventListener('click', refreshPage);
+
 
 
 var scoreButton = document.getElementById('score');
